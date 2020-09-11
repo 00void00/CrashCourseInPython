@@ -84,3 +84,16 @@ multiplication_table(5)
 
 multiplication_table(8)	
 # Should print: 8x1=8 8x2=16 8x3=24
+
+
+FOR
+
+2.
+def factorial(n):
+    result = 1
+    for x in range(1,n+1):
+        result = result * x
+    return result
+
+for n in range(0,9):
+    print(n, factorial(n))
